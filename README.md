@@ -2,6 +2,10 @@
 
 Solar system is an interactive website that allows users to explore detailed information about the planets in our Solar System. The project lets users select a planet from the menu and browse through three main sections for each planet: Overview, Structure, and Surface. The site is fully responsive, meaning it works seamlessly on both desktops and mobile devices.
 
+## Live Page
+
+https://bartoszmokrzycki.github.io/solarSystem/
+
 ## Features
 
 - **Planet selection**: Users can click on a planet to view detailed information about the selected celestial body.
