@@ -1,0 +1,85 @@
+@media (min-width: 1200px) {
+	.nav {
+		.desktop-items {
+			margin-top: 0;
+			gap: 20px;
+
+			p {
+				font-size: 1.2rem;
+			}
+		}
+	}
+	main {
+		.planet-box {
+			.desktop {
+				flex-direction: row;
+			}
+
+			&__img {
+				height: auto;
+				width: 70%;
+			}
+
+			.mercury-img {
+				width: 290px;
+				height: 290px;
+			}
+			.venus-img {
+				width: 370px;
+				height: 370px;
+			}
+			.mars-img {
+				width: 336px;
+				height: 336px;
+			}
+			.earth-img {
+				width: 400px;
+				height: 400px;
+			}
+			.jupiter-img {
+				width: 500px;
+				height: 500px;
+			}
+			.saturn-img {
+				width: 520px;
+				height: 520px;
+			}
+			.uranus-img {
+				width: 410px;
+				height: 410px;
+			}
+			.neptune-img {
+				width: 405px;
+				height: 405px;
+			}
+			&__data {
+				flex-direction: column;
+				width: 40%;
+				padding-top: 60px;
+
+				&--name {
+					font-size: 4rem;
+				}
+
+				&--description {
+					font-size: 1.2rem;
+					line-height: 30px;
+					padding: 0;
+				}
+
+				&--source {
+					padding: 1em 0;
+				}
+
+				.planet-box--strech {
+					width: auto;
+					padding-right: 0;
+				}
+
+				&-infobox {
+					width: 100%;
+				}
+			}
+		}
+	}
+}

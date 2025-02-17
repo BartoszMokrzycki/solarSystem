@@ -1,0 +1,176 @@
+@media (min-width: 768px) {
+	.nav {
+		.desktop-items {
+			margin-top: 2rem;
+
+			p {
+				font-size: 1.2rem;
+				transition: color 0.3s;
+				cursor: pointer;
+
+				&:hover {
+					color: $mainWhite;
+				}
+			}
+		}
+	}
+
+	main {
+		.info-choice-box {
+			display: none;
+		}
+
+		.planet-box {
+			&__img {
+				height: 300px;
+			}
+
+			&__img {
+				.planet-surface {
+					margin-top: 200px;
+
+					img {
+						width: 150px;
+						height: 180px;
+					}
+				}
+			}
+			.mercury-img {
+				width: 184px;
+				height: 184px;
+			}
+			.venus-img {
+				width: 253px;
+				height: 253px;
+			}
+			.mars-img {
+				width: 213px;
+				height: 213px;
+			}
+			.earth-img {
+				width: 285px;
+				height: 285px;
+			}
+			.jupiter-img {
+				width: 300px;
+				height: 300px;
+			}
+			.saturn-img {
+				width: 320px;
+				height: 320px;
+			}
+			.uranus-img {
+				width: 290px;
+				height: 290px;
+			}
+			.neptune-img {
+				width: 285px;
+				height: 285px;
+			}
+			&__data {
+				display: flex;
+				align-items: center;
+				position: relative;
+				text-align: left;
+
+				.planet-box--strech {
+					width: 60%;
+					padding-right: 4em;
+				}
+
+				&--name {
+					font-size: 3.6rem;
+				}
+
+				&--description {
+					font-size: 1.1rem;
+					color: $mainWhite;
+					font-weight: lighter;
+					height: 160px;
+				}
+
+				&-infobox {
+					width: 40%;
+					display: flex;
+					flex-direction: column;
+
+					div {
+						display: flex;
+						align-items: center;
+						padding: 1em;
+						border: 1px solid $lightGrey;
+						margin: 0.5em 0;
+						transition: background-color 0.3s ease;
+						cursor: pointer;
+
+						&:hover {
+							background-color: rgba(156, 156, 156, 0.3);
+						}
+						&.active-infobox {
+							background-color: $mercColor;
+							border: 1px solid $mercColor;
+
+							.number {
+								color: $mainWhite;
+							}
+						}
+						&.active-box {
+							background-color: var(--active-color);
+							border: 1px solid var(--active-color);
+
+							.number {
+								color: $mainWhite;
+							}
+						}
+
+						p {
+							text-transform: uppercase;
+							letter-spacing: 2px;
+							font-weight: bold;
+						}
+
+						.number {
+							padding-right: 1.5em;
+							// font-weight: normal;
+							color: $lightGrey;
+						}
+					}
+				}
+			}
+
+			&__info {
+				margin: 0;
+				display: flex;
+				flex-direction: row;
+				gap: 20px;
+				width: 100%;
+				justify-content: center;
+
+				&--data {
+					display: flex;
+					flex-direction: column;
+					align-items: flex-start;
+					padding: 1.2em;
+					text-transform: uppercase;
+					border: 1px solid $lightGrey;
+					width: 25%;
+					transition: width 0.3s ease;
+
+					.type {
+						font-size: 0.8rem;
+						color: $lightGrey;
+						letter-spacing: 2px;
+						padding-bottom: 0.4em;
+					}
+
+					.number {
+						font-size: 1.4rem;
+						font-family: 'Antonio', serif;
+						color: $mainWhite;
+						align-self: start;
+					}
+				}
+			}
+		}
+	}
+}

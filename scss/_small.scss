@@ -1,0 +1,25 @@
+@media (min-width: 576px) {
+	.off-screen-menu,
+	.ham-menu {
+		display: none;
+	}
+
+	.nav {
+		flex-direction: column;
+		.desktop-items {
+			display: flex;
+			margin-top: 1.5em;
+
+			gap: 15px;
+			list-style: none;
+
+			p {
+				font-size: .8rem;
+				color: $lightGrey;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: 2px;
+			}
+		}
+	}
+}
